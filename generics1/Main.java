@@ -6,13 +6,9 @@ public class Main {
         Integer[] skaiciai = {1, 2, 3};
         String[] zodziai = {"Hello", "World"};
 
-        spausdintiBendraInfo(skaiciai, zodziai);
+        spausdintiMasyvoInfo(skaiciai);
+        spausdintiMasyvoInfo(zodziai);
 
-    }
-
-    public static <T> void spausdintiBendraInfo(T[] masyvas1, T[] masyvas2) {
-        spausdintiMasyvoInfo(masyvas1);
-        spausdintiMasyvoInfo(masyvas2);
     }
 
     private static <T> void spausdintiMasyvoInfo(T[] masyvas) {
