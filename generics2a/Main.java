@@ -1,5 +1,11 @@
 package generics2a;
 
+import generics2a.medis.sulapais.Azuolas;
+import generics2a.medis.sulapais.Berzas;
+import generics2a.medis.suspygliais.Egle;
+import generics2a.medis.suspygliais.Kadagys;
+import generics2a.medis.suspygliais.Pusis;
+
 public class Main {
     public static void main(String[] args) {
         Azuolas azuolas = new Azuolas();

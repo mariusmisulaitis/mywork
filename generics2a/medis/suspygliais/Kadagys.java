@@ -1,4 +1,6 @@
-package generics2a;
+package generics2a.medis.suspygliais;
+
+import generics2a.medis.tipas.Spygliuotis;
 
 public class Kadagys extends Spygliuotis {
     @Override
